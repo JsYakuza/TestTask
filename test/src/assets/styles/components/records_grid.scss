@@ -1,0 +1,17 @@
+.records_table {
+    border-collapse: collapse; 
+    width: 100%; 
+    border-spacing: 0;
+
+    td {
+        border: 1px solid #333;
+        padding: 4px; 
+        text-align: center;
+    }
+
+}
+
+.loading_block {
+    display: flex;
+    justify-content: center;
+}

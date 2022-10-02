@@ -1,0 +1,29 @@
+@import "../variables.scss";
+@import "../base.scss";
+
+.header {
+    margin-bottom: 10px;
+
+    .new_record_form {
+        display: flex;
+        justify-content: space-between;
+
+        .name,
+        .email,
+        .phone {
+            @extend %base_inputs;
+        }
+
+        .add_button {
+            @extend %base_buttons;
+        }
+
+        .warning {
+            font-size: 14px;
+            color: red;
+            margin-top: 5px;
+            word-break: break-all;
+            width: 150px;
+        }
+    }
+}

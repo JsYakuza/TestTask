@@ -1,0 +1,22 @@
+@import "../base.scss";
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .delete_button {
+        @extend %base_buttons;
+    }
+
+    .search_block {
+
+        .search_block__input {
+            @extend %base_inputs;
+        }
+
+        .search_block__records_count_block {
+            text-align: center;
+        }
+    }
+}

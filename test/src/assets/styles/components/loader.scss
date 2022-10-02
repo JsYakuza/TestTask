@@ -1,0 +1,29 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed teal;
+    border-radius: 50%;
+    animation: 1.5s linear infinite running rot;
+    -webkit-animation: 1.5s linear infinite running rot;
+    width: 100px;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
